@@ -44,7 +44,9 @@ public class DropdownExample {
 			// print all option from drop down and chose any one of your choice.....
 			
 			List<WebElement> oSize=select.getOptions();
+			System.out.println(oSize);
 			int count=oSize.size();
+			System.out.println(count);
 			
 			// iterate loop to get all value 
 			
@@ -56,10 +58,9 @@ public class DropdownExample {
 			  if(allValue.equals(""))
 			  select.selectByIndex(i);
 			  else
-				  System.out.println("Not found=====>>>");
+		     System.out.println("====Not found=====>>>");
 			  
-			  
-			     driver.close();
+			    // driver.close();
 			}			
 			
 
