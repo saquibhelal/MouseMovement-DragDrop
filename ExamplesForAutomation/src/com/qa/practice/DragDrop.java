@@ -11,7 +11,7 @@ public class DragDrop {
 
 	public static void main(String[] args) {
 		
-		WebDriver driver;
+WebDriver driver;
 		
 		System.setProperty("webdriver.gecko.driver", "C:\\Users\\User\\Desktop\\Selnium_Repos"
 				+ "\\drivers\\geckodriver-v0.19.1-win32\\geckodriver.exe");

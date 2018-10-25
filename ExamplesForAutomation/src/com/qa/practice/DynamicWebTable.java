@@ -12,6 +12,19 @@ public class DynamicWebTable {
 
 	public static void main(String[] args) {
 		
+		 
+			
+			
+			
+			
+			
+			
+			
+			
+		
+	
+	
+		
         WebDriver driver;
 		
 		System.setProperty("webdriver.gecko.driver", "C:\\Users\\User\\Desktop\\Selnium_Repos\\drivers\\geckodriver-v0.19.1-win32\\geckodriver.exe");
@@ -24,7 +37,8 @@ public class DynamicWebTable {
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	 
 			// Launch the URL
-			driver.get("https://money.rediff.com/gainers/bsc/daily/groupa");
+			driver.get("http://toolsqa.wpengine.com/automation-practice-form");
+			//driver.get("https://money.rediff.com/gainers/bsc/daily/groupa");
 			WebElement baseTable = driver.findElement(By.tagName("table"));
 			
 			//No of columns
