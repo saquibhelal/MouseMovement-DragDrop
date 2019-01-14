@@ -22,6 +22,7 @@ public class AlertPopUpHandle {
 			Alert alert=driver.switchTo().alert();
 			System.out.println(alert.getText());
 			String text=alert.getText();
+			
 			if(text.equals("Please enter a valid user name")){
 				alert.accept();
 				System.out.println("correct alert message");

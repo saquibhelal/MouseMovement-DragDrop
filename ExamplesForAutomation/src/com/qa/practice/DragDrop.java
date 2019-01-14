@@ -28,10 +28,8 @@ WebDriver driver;
 		driver.switchTo().frame(0);
 		
 		Actions action = new Actions(driver);
-	    action.clickAndHold(driver.findElement(By.xpath(".//*[@id='draggable']"))).moveToElement(driver.findElement(By.xpath(".//*[@id='droppable']")))
+	    action.clickAndHold(driver.findElement(By.xpath("//*[@id='draggable']"))).moveToElement(driver.findElement(By.xpath("//*[@id='droppable']")))
 	    .release().build().perform();
-	    
-		
 		
 		
 	}
