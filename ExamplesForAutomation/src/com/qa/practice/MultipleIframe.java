@@ -21,7 +21,7 @@ public class MultipleIframe {
 		driver = new ChromeDriver();//navigates to the Browser
 	    driver.get("http://toolsqa.wpengine.com/iframe-practice-page/"); 
 	       // navigates to the page consisting an iframe
-
+           
 	       driver.manage().window().maximize();
 	      // List<WebElement> elements=driver.findElements(By.tagName("iframe"));
 	      // int noFrame=elements.size();
